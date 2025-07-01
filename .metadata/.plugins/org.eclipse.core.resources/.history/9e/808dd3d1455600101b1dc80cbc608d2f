@@ -1,0 +1,14 @@
+package datatype;
+
+public class CharStringType {
+
+	public static void main(String[] args) {
+		
+		System.out.println("***** 문자 자료형 *****");
+		
+		//문자 자료형 - 2byte(16bit) - 2의 16승, 범위: -32000 ~ 32000
+		char ch1 = 'A';
+		System.out.println(ch1);
+	}
+
+}

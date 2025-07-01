@@ -1,0 +1,18 @@
+package datatype;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		// 묵시적 형변환(자동 형변환)
+		int iNum = 20; //4바이트 정수 자료형
+		float fNum = iNum; //4바이트 실수 자료형
+		
+		System.out.println(iNum); //20
+		System.out.println(fNum); //20.0
+		
+		
+		// 명시적 형변환(강제 형변환)
+
+	}
+
+}

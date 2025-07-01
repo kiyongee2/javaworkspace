@@ -1,0 +1,12 @@
+package print;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// 주석 - 설명글, 메모(컴파일러가 번역하지 않음)
+		// 글자 출력
+		System.out.print("Hello~ World!");
+
+	}
+
+}

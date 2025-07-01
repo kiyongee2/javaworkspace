@@ -1,0 +1,17 @@
+package datatype;
+
+public class TypeConversion {
+
+	public static void main(String[] args) {
+		// 묵시적 형변환(자동 형변환)
+		int iNum = 20;
+		float fNum = iNum;
+		
+		System.out.println(iNum); //20
+		
+		
+		// 명시적 형변환(강제 형변환)
+
+	}
+
+}

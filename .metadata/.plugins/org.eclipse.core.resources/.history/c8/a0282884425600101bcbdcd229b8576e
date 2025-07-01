@@ -1,0 +1,10 @@
+package datatype;
+
+public class NumberType {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

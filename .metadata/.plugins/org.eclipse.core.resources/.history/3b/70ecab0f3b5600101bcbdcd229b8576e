@@ -1,0 +1,11 @@
+package print;
+
+public class PrintData {
+
+	public static void main(String[] args) {
+		// 숫자 - 정수, 실수
+		System.out.println(100);
+
+	}
+
+}

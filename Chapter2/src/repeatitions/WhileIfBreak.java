@@ -18,7 +18,7 @@ public class WhileIfBreak {
 		
 		//1부터 4까지 곱하기 - 1x2x3x4 --> 4!
 		int n = 1;
-		int gob = 1; //초기값 1
+		int gob = 1; //곱한값의 초기값 1
 		
 		while(n <= 4) {
 			gob *= n; //gob = gob * n;

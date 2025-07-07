@@ -21,9 +21,9 @@ public class ArrayCharTest {
 			ch++;
 		}
 		
-		/*for(int i = 0; i < alphabets.length; i++) {
+		for(int i = 0; i < alphabets.length; i++) {
 			System.out.println(alphabets[i] + ", " + (int)alphabets[i]);
-		}*/
+		}
 		
 		//배열 복사하기
 		int[] arr1 = {10, 20, 30, 40}; //배열의 선언과 동시에 초기화

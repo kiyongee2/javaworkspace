@@ -16,7 +16,7 @@ public class ReturnMethods {
 	}
 	//응원 메시지를 출력하는 기능을 하는 함수
 	public static String message() {
-		return "Good Luck!";
+		return "Have a nice day!";
 	}
 
 	//더하기 기능을 하는 메서드 정의

@@ -37,7 +37,7 @@ public class CalendarTest {
 		
 		//요일 - (1:일, 2:월, 3:화, 4:수, 5:목, 6:금, 7:토)
 		int day = cal.get(Calendar.DAY_OF_WEEK);
-		//System.out.println(day);
+		System.out.println(day);
 		
 		//요일 저장할 배열 생성
 		String[] days = new String[] {"일", "월", "화", "수", "목", "금", "토"};

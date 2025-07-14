@@ -1,6 +1,7 @@
 package objects;
 
-public class Book{
+//Object 클래스는 모든 클래스의 부모(생략 가능)
+public class Book extends Object{
 	int bookNumber;   //책 번호
 	String bookTitle; //책 제목
 	
@@ -14,6 +15,12 @@ public class Book{
 	public String toString() {
 		return bookNumber + ", " + bookTitle;
 	}
+	
+//	String showInfo() {
+//		return bookNumber + ", " + bookTitle;
+//	}
+	
+	
 	
 	
 }

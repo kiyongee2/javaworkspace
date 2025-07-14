@@ -40,7 +40,7 @@ public class StringMethod1 {
 		System.out.println(location2); //-1
 		
 		//문자열 검색 응용 예제
-		if(subject.indexOf("파이썬") != -1) { //0번에서 칮음
+		if(subject.indexOf("자바") != -1) { //0번에서 칮음
 			System.out.println("자바와 관련된 책이군요!!");
 		}else {
 			System.out.println("자바와 관련이 없는 책이군요!!");

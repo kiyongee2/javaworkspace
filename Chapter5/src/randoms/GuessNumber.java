@@ -1,5 +1,6 @@
 package randoms;
 
+import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -15,23 +16,27 @@ public class GuessNumber {
 		Scanner scan = new Scanner(System.in);
 		
 		while(true) {
-			System.out.print("숫자(예: 1~30) 입력: ");
-			int guess = scan.nextInt(); //사용자 입력
-			//정답, 큰 경우, 작은 경우
-			//범위 제한 - "범위를 초과했어요. 다시 입력하세요"
-			if(guess < 1 || guess > 30) {
-				System.out.println("범위를 초과했어요. 다시 입력하세요");
-			}else { // guess >= 1 && guess <= 30
-				if(guess == com ) {
-					System.out.println("정답!");
-					break;
-				}else if(guess > com) {
-					System.out.println("너무 커요!");
-				}else {
-					System.out.println("너무 작아요");
+			try {
+				System.out.print("숫자(예: 1~30) 입력: ");
+				int guess = Integer.parseInt(scan.nextLine()); //사용자 입력
+				//정답, 큰 경우, 작은 경우
+				//범위 제한 - "범위를 초과했어요. 다시 입력하세요"
+				if(guess < 1 || guess > 30) {
+					System.out.println("범위를 초과했어요. 다시 입력하세요");
+				}else { // guess >= 1 && guess <= 30
+					if(guess == com ) {
+						System.out.println("정답!");
+						break;
+					}else if(guess > com) {
+						System.out.println("너무 커요!");
+					}else {
+						System.out.println("너무 작아요");
+					}
 				}
-			}	
-		}
+			}catch(NumberFormatException e) { //숫자 자료형 예외
+				System.out.println("유효한 숫자를 입력하세요");
+			}
+		} //while()
 
 		scan.close();
 		

@@ -6,8 +6,8 @@ public class ThrowNewTest {
 		
 		//나이를 체크하는 메서드 호출
 		try {
-			//checkAge(-10);
-			checkAge(17);
+			checkAge(-10);
+			//checkAge(17);
 		} catch(IllegalArgumentException e) {
 			System.out.println("예외 발생: " + e.getMessage());
 		} catch(ArithmeticException e) {

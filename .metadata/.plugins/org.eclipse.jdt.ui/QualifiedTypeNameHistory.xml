@@ -20,4 +20,8 @@
     <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
     <fullyQualifiedTypeName name="java.awt.Toolkit"/>
     <fullyQualifiedTypeName name="lambda.MyFunctionalInterface"/>
+    <fullyQualifiedTypeName name="collection.member.hashmap.MemberHashMap"/>
+    <fullyQualifiedTypeName name="interface_impl.concat.StringConcatImpl"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

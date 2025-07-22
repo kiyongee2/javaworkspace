@@ -16,7 +16,7 @@ public class HashMapTest {
 		map.put("허준", 75);
 		map.put("이순신", 80);
 		
-		System.out.println(map); //객체 정보 출력
+		System.out.println(map); //{허준=75, 강감찬=95, 이순신=80}
 		 
 		//요소의 개수 - size()
 		System.out.println("총 객체수: " + map.size() + "개"); //3
